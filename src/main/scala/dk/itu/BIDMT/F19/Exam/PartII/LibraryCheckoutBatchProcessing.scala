@@ -44,15 +44,6 @@ object LibraryCheckoutBatchProcessing {
       .count()
   }
   /**
-    * 
-    * query the checkout records and the library dictionary to find
-    * the number of checked out items per Fromat Group - Format Subgroup pair
-    *
-    * Note that multiple ItemType code could have the same Format Group: Format Subgroup combination
-    * drmfmnp,	Microfilm: Dummy Newspaper,	ItemType,	Media,	Film, ,
-    * drmfper,	Microfilm: Dummy Periodical,	ItemType,	Media,	Film, ,
-    *
-    *
     * @param checkoutDF
     * @param dataDictionaryDF
     * @return A DataFrame of two columns: Format,CheckoutCount
@@ -80,14 +71,6 @@ object LibraryCheckoutBatchProcessing {
   }
 
   /**
-    * 
-    * query the checkout records and the library inventory details to
-    * find the top k library locations where the most checkouts happened
-    *
-    * The values stored in the ItemLocation column of the library inventory file is a code.
-    * Therefore, you will need to decode the location from the description found in the library dictionary
-    * Note: for codes that represent library locations, the value in Code Type column is "ItemLocation"
-    * and the details of the location are in the Description column
     *
     * @param checkoutDF
     * @param libraryInventoryDF

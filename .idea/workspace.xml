@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5232dbae-82de-428e-abd2-5226aa4bcbf9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1VDd6Bw0gYXFRCEkQaSx3HDy7p2" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Final" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="dk.itu.BIDMT.F19.Exam.PartII.LibraryCheckoutBatchProcessing" />
+      <module name="BIDM_F19_Exam" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="BIDM_F19_Exam" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="bidm_f19_exam [file:/C:/Users/Patricija/Desktop/Big%20Data%20Managment/BIDM_F19_Exam/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="BIDM_F19_Exam-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="4138616223" />
+        <entry key="$PROJECT_DIR$/project/assembly.sbt" value="2573304535" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../BIDMT_F19_P1" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../BIDMT_F19_P2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../BIDMT_F19_P3" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Exercise11" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Exercise12Solution" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Exercise13" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Exercise3" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Exercise_7_1/Exercise7" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5232dbae-82de-428e-abd2-5226aa4bcbf9" name="Default Changelist" comment="" />
+      <created>1576791421279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576791421279</updated>
+    </task>
+    <servers />
+  </component>
+</project>

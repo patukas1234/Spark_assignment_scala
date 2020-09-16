@@ -20,19 +20,3 @@ item type item location, ...), Code Type, Format Group, and Format Subgroup.
 ### Library Collection Inventory: 
 includes information about all the library inventory. We are
 mainly interested in the columns: BibNum and ItemLocation.
-
-## Required Implementation
-You are required to write the following functions:
-### libraryItemsPerAuthor: 
-find the total number of items in the library inventory per author.
-
-### numberCheckoutRecordsP erFormat: 
-given library checkout records and the dictionary of
-library codes, find the total number of checkout occurrences for each item type specified by
-a Format (Format Gorup + Format SubGroup).
-
-### topKCheckoutLocations: 
-given library checkout records and library inventory details, find
-the top k locations that have the highest numbers of checkout records. Decode the location
-using the library dictionary.
-

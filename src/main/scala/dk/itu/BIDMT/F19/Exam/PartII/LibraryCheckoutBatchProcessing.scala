@@ -19,9 +19,6 @@ object LibraryCheckoutBatchProcessing {
   /**
     * Code to load the data from a csv file given the file path of that file
     *
-    * Hint: you can allow spark to infer the schema
-    * (or you can define your own schema based on the information from kaggle)
-    * Note that the first row in the data is a header!
     *
     * @param path
     * @return DataFrame of the loaded data
@@ -34,7 +31,7 @@ object LibraryCheckoutBatchProcessing {
   }
 
   /**
-    * Q1
+    * 
     * qurey the library inventory to find the number of items in the inventory written/created by each author
     *
     * @param libraryInventoryDF
@@ -47,7 +44,7 @@ object LibraryCheckoutBatchProcessing {
       .count()
   }
   /**
-    * Q2
+    * 
     * query the checkout records and the library dictionary to find
     * the number of checked out items per Fromat Group - Format Subgroup pair
     *
@@ -55,12 +52,6 @@ object LibraryCheckoutBatchProcessing {
     * drmfmnp,	Microfilm: Dummy Newspaper,	ItemType,	Media,	Film, ,
     * drmfper,	Microfilm: Dummy Periodical,	ItemType,	Media,	Film, ,
     *
-    * Hint: You might want to create a udf to combine the two columns "Format Group" and "Format Subgroup"
-    * to one column "Format".
-    * The output in the Format column should be in the form of  Format Group:Format Subgroup
-    * if the value in  Format Subgroup is not null, else it should also be the value in Format Group column
-    * You need to account for null values
-    * Examples of the values in the o/p Format column: "Media:Audio Disc"  and "Equipment"
     *
     * @param checkoutDF
     * @param dataDictionaryDF
@@ -89,7 +80,7 @@ object LibraryCheckoutBatchProcessing {
   }
 
   /**
-    * Q3
+    * 
     * query the checkout records and the library inventory details to
     * find the top k library locations where the most checkouts happened
     *
